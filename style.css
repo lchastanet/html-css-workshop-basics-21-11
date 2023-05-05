@@ -65,6 +65,7 @@ header {
 
 header h1 {
   font-size: clamp(2rem, 5vw, 3rem);
+  filter: drop-shadow(2px, 2px, 2px, #000);
 }
 
 /* section */
@@ -147,6 +148,6 @@ footer {
 
 @media print {
   header h1 {
-    filter: drop-shadow();
+    filter: none;
   }
 }
